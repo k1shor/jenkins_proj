@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Node.js app is running");
+  res.send("Node.js app is running!!!");
 });
 
 app.get("/api/hi", (req, res) => {
