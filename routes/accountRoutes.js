@@ -9,4 +9,6 @@ router.get("/:id", getAccountDetails);
 router.put("/:id", updateAccountDetails);
 router.delete("/:id", deleteAccount);
 
+
+
 module.exports = router;
